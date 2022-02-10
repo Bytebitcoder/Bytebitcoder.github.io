@@ -9,5 +9,5 @@ title: 关于我
 
 平时喜欢用python写一些程序去处理一些统计分类处理文档爬虫等需求，能用工具做的事情坚决不用人工去操作。
 
-{% include comments.html %}
+<!-- {% include comments.html %} -->
 
