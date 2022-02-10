@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 其它爱好
+title: 爱好
 ---
 
 <!-- 博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
