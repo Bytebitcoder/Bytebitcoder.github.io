@@ -65,12 +65,23 @@
             <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇：  <span>{{page.previous.title}}</span>
             </a>
         </li>
+        {% else %}
+        <li class="previous">
+          <a href="">这是第一篇喔 (ง •̀_•́)ง
+          </a>
+        </li>
         {% endif %}
         {% if page.next.url %}
         <li class="next">
             <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇：  <span>{{page.next.title}}</span>
             </a>
         </li>
+        {% else %}
+        <li class="next">
+          <a href="">到最后一篇啦 ╮(๑•́ ₃•̀๑)╭
+          </a>
+        </li>
+        {% endif %}
         {% endif %}
     </ul>
 </section>
