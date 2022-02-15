@@ -729,7 +729,8 @@ img::-moz-selection {
 
   .btn, .navigation__item a {
     display: inline-block;
-    margin-right: 0px;
+    /* margin-right: 0px; */
+    margin-left : 0px;
     padding: 5px 5px 5px 5px;
     font-size: .6em;
     text-shadow: none;

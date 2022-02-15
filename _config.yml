@@ -66,7 +66,8 @@ blog_button:
 nav:
     - {title: 文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 爱好, description: like, url: '/like'}      
+    # - {title: 爱好, description: like, url: '/like'}      
+    - {title: 古文, description: search, url: '/search'}
     - {title: 关于, description: about, url: '/about'}   
     
 
